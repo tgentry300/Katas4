@@ -13,9 +13,9 @@ function makeHeader(header) {
     div.textContent = header
     document.getElementById("container").appendChild(div)
 }
-// Kata 1
+// Kata 1 an array of strings
 makeHeader("Kata 1")
-const gotCitiesCSVArray = gotCitiesCSV.split(" , ");
+const gotCitiesCSVArray = gotCitiesCSV.split(",");
 makeDiv(JSON.stringify(gotCitiesCSVArray))
 
 // Kata 2
@@ -72,20 +72,20 @@ makeDiv(JSON.stringify(lotrCitiesArray))
 
 // Kata 12
 makeHeader("Kata 12")
-let kataArray = bestThing.split("")
-let kata12result = kataArray.slice(0, 14)
+// let kataArray = bestThing.split("")
+let kata12result = bestThing.slice(0, 14)
 makeDiv(JSON.stringify(kata12result))
 
 // Kata 13
 makeHeader("Kata 13")
-let kata13Array = bestThing.split("")
-let kata13Result = kata13Array.slice(-12, )
+// let kata13Array = bestThing.split("")
+let kata13Result = bestThing.slice(-12, )
 makeDiv(JSON.stringify(kata13Result))
 
 // Kata 14
 makeHeader("Kata 14")
-let kata14Array = bestThing.split("")
-let kata14Result = kata14Array.slice(22, 38)
+// let kata14Array = bestThing.split("")
+let kata14Result = bestThing.slice(23, 38)
 makeDiv(JSON.stringify(kata14Result))
 
 // Kata 15
